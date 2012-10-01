@@ -2,6 +2,7 @@
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_VERSION_TAGS=release-keys USER=android-build BUILD_UTC_DATE=$(shell date +"%s")
 
 DATE = $(shell vendor/aokp/tools/getdate)
+BUILD_DEVICE = $(shell vendor/aokp/tools/getdevice)
 
 ifneq ($(AOKP_BUILD),)
 	# AOKP_BUILD=<goo version int>/<build string>
@@ -12,7 +13,7 @@ ifneq ($(AOKP_BUILD),)
 		ro.aokp.version=$(TARGET_PRODUCT)_jb_$(shell echo $(AOKP_BUILD) | cut -d/ -f2)
 else
 	PRODUCT_PROPERTY_OVERRIDES += \
-		ro.aokp.version=aokp_sgt7-$(TARGET_BUILD_DEVICE)-$(DATE)
+		ro.aokp.version=aokp_sgt7-$(BUILD_DEVICE)-jb_$(DATE)
 endif
 
 # Camera shutter sound property

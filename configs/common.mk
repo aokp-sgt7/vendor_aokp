@@ -19,6 +19,10 @@ PRODUCT_PACKAGES += \
     ROMControl \
     SuperSU \
     SwagPapers \
+    SGT7Walls \
+    Trebuchet \
+    Apollo \
+    SamsungServiceMode \
     UnicornPorn
 
 # Use prebuilt su until fixed when built
@@ -37,6 +41,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.kernel.android.checkjni=0
 
 PRODUCT_COPY_FILES += \
+    vendor/aokp/proprietary/Term.apk:system/app/Term.apk \
+    vendor/aokp/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
     vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
     vendor/aokp/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/aokp/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf
