@@ -13,7 +13,10 @@ ifneq ($(AOKP_BUILD),)
 		ro.aokp.version=$(TARGET_PRODUCT)_jb_$(shell echo $(AOKP_BUILD) | cut -d/ -f2)
 else
 	PRODUCT_PROPERTY_OVERRIDES += \
-		ro.aokp.version=aokp_sgt7-$(BUILD_DEVICE)-jb_$(DATE)
+   	    ro.aokp.version=aokp_sgt7-$(BUILD_DEVICE)-jb_$(DATE) \
+	    ro.goo.developerid=stimpz0r \
+	    ro.goo.rom=aokpsgt7-jb \
+	    ro.goo.version=1
 endif
 
 # Camera shutter sound property
