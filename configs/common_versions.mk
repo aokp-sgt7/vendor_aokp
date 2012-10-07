@@ -16,7 +16,7 @@ else
    	    ro.aokp.version=aokp_sgt7-$(BUILD_DEVICE)-jb_$(DATE) \
 	    ro.goo.developerid=stimpz0r \
 	    ro.goo.rom=aokpsgt7-jb \
-	    ro.goo.version=1
+	    ro.goo.version=$(shell date +%s)
 endif
 
 # Camera shutter sound property
