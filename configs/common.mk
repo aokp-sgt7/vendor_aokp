@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     Trebuchet \
     Apollo \
     SamsungServiceMode \
+    CMFileManager \
     UnicornPorn
 
 # Use prebuilt su until fixed when built
