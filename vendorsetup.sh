@@ -1,4 +1,4 @@
 add_lunch_combo aokp_p1-userdebug
 add_lunch_combo aokp_p1c-userdebug
-#add_lunch_combo aokp_p1l-userdebug
-#add_lunch_combo aokp_p1n-userdebug
+add_lunch_combo aokp_p1l-userdebug
+add_lunch_combo aokp_p1n-userdebug

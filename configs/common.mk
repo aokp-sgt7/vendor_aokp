@@ -23,6 +23,7 @@ PRODUCT_PACKAGES += \
     Apollo \
     SamsungServiceMode \
     CMFileManager \
+    Torch \
     UnicornPorn
 
 # Use prebuilt su until fixed when built
