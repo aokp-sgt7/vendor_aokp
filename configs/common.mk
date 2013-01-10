@@ -14,6 +14,11 @@ PRODUCT_PACKAGES += \
     ROMControl \
     SuperSU \
     SwagPapers \
+    SGT7Walls \
+    Trebuchet \
+    Apollo \
+    SamsungServiceMode \
+    CMFileManager \
     Torch \
     UnicornPorn
 
