@@ -19,6 +19,8 @@ PRODUCT_PACKAGES += \
     Apollo \
     SamsungServiceMode \
     CMFileManager \
+    DSPManager \
+    LockClock \
     Torch \
     UnicornPorn
 
