@@ -9,7 +9,6 @@ PRODUCT_PACKAGES += \
     AppWidgetPicker \
     LatinImeDictionaryPack \
     Microbes \
-    NovaLauncher \
     PerformanceControl \
     ROMControl \
     SuperSU \
@@ -84,5 +83,5 @@ PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallp
 -include vendor/aokp/configs/themes_common.mk
 
 # common boot animation
-PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+#PRODUCT_COPY_FILES += \
+#    vendor/aokp/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
