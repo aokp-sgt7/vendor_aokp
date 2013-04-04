@@ -1,7 +1,7 @@
 $(call inherit-product, device/samsung/p1c/full_p1c.mk)
 
-$(call inherit-product, vendor/aokp/configs/common_tablet.mk)
 $(call inherit-product, vendor/aokp/configs/cdma.mk)
+$(call inherit-product, vendor/aokp/configs/common_tablet.mk)
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/p1-common
 
