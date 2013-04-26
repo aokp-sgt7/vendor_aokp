@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
     DSPManager \
     LockClock \
     Torch \
+    AboutAOKPSGT7 \
     UnicornPorn
 
 PRODUCT_PROPERTY_OVERRIDES += \
