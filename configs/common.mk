@@ -12,7 +12,6 @@ PRODUCT_PACKAGES += \
     LatinImeDictionaryPack \
     mGerrit \
     Microbes \
-    PerformanceControl \
     PermissionsManager \
     ROMControl \
     Superuser \
@@ -25,6 +24,7 @@ PRODUCT_PACKAGES += \
     CMFileManager \
     DSPManager \
     LockClock \
+    PerformanceControl \
     Torch \
     AboutAOKPSGT7 \
     UnicornPorn
