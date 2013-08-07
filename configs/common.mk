@@ -27,6 +27,7 @@ PRODUCT_PACKAGES += \
     PerformanceControl \
     Torch \
     AboutAOKPSGT7 \
+    Focal \
     UnicornPorn
 
 PRODUCT_PROPERTY_OVERRIDES += \
