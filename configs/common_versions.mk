@@ -3,7 +3,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_VERSION_TAGS=release-keys USER=android-bui
 
 DATE = $(shell vendor/aokp/tools/getdate)
 BUILD_DEVICE = $(shell vendor/aokp/tools/getdevice)
-AOKP_BRANCH=jb-mr1
+AOKP_BRANCH=jb-mr2
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.aokp.version=aokp_sgt7-$(BUILD_DEVICE)-$(AOKP_BRANCH)_$(DATE) \
