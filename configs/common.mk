@@ -27,7 +27,6 @@ PRODUCT_PACKAGES += \
     PerformanceControl \
     Torch \
     AboutAOKPSGT7 \
-    Focal \
     UnicornPorn
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -94,7 +93,3 @@ PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallp
 
 # T-Mobile theme engine
 -include vendor/aokp/configs/themes_common.mk
-
-# common boot animation
-#PRODUCT_COPY_FILES += \
-#    vendor/aokp/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
