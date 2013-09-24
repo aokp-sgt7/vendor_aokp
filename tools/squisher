@@ -172,7 +172,7 @@ rm -rf $REPACK/ota/recovery
 #VERSION=`sed -n -e'/ro.aokp.version/s/^.*=//p' $REPACK/ota/system/build.prop`
 BUILD_DATE=$(date +%Y%m%d)
 BUILD_VARIANT=$(echo $TARGET_PRODUCT | cut -d'_' -f 2)
-VERSION="aokp_sgt7-"$BUILD_VARIANT"_jb-mr1-"$BUILD_DATE
+VERSION="aokp_sgt7-"$BUILD_VARIANT"_jb-mr2-"$BUILD_DATE
 MODVERSION="$VERSION"
 OUTFILE=$OUT/$MODVERSION.zip
 
